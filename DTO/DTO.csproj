@@ -45,7 +45,7 @@
     <Compile Include="GiaPhong_DTO.cs" />
     <Compile Include="KhachHang_DTO.cs" />
     <Compile Include="NhanVien_DTO.cs" />
-    <Compile Include="Phongf_DTO.cs" />
+    <Compile Include="Phong_DTO.cs" />
     <Compile Include="PhongDangThue_DTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

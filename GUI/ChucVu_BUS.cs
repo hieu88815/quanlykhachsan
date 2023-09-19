@@ -7,23 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GUI
+namespace BUS
 {
     public class ChucVu_BUS
     {
         ChucVu_DAL chucvu = new ChucVu_DAL();
         public DataTable Load_Chucvu()
         {
-            return chucvu.Load_ChucVu();
+            return chucvu.Load_ChucVu_DAL();
         }
 
-        public void Insert_Chucvu(ChucVu_DAL ob)
+        public void Insert_Chucvu(ChucVu_DTO ob)
         {
             chucvu.Insert_chucvu(ob);
         }
-        public void Update_Chucvu(ChucVu_DAL ob)
+        public void Update_Chucvu(ChucVu_DTO ob)
         {
-            chucvu.Undate_chucvu(ob);
+            chucvu.Update_chucvu(ob);
         }
         public void Delete_Chucvu(string machucvu)
         {

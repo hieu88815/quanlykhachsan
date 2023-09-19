@@ -8,26 +8,26 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    internal class GiaPhong_DAL : Connect
+    public class GiaPhong_DAL : Connect
     {
         public GiaPhong_DAL() { }
-        public DataTable Load_GiaPhong()
+        public DataTable Load_GiaPhong_DAL()
         {
             return Load_DL("select * from giaphong");
         }
-        public void Undate_giaphong(GiaPhong_DTO ob)
+        public void Update_GiaPhong(GiaPhong_DTO ob)
         {
-            string sql = "update giaphong set gia = " + ob.gia + " where loaiphong = '" + ob.loaiphong + "'";
+            string sql = "update giaphong set gia = " + ob.gia + " where loaiphong = N'" + ob.loaiphong + "'";
             Excecute(sql);
         }
-        public void Insert_giaphong(GiaPhong_DTO ob)
+        public void Insert_GiaPhong(GiaPhong_DTO ob)
         {
-            string sql = "insert into giaphong values('" + ob.loaiphong + "', " + ob.gia + ")";
+            string sql = "insert into giaphong values(N'" + ob.loaiphong + "', " + ob.gia + ")";
             Excecute(sql);
         }
-        public void Delete_giaphong(string loaiphong)
+        public void Delete_GiaPhong(string loaiphong)
         {
-            string sql = "delete from chucvu where machucvu = '" + loaiphong + "'";
+            string sql = "delete from giaphong where loaiphong = N'" + loaiphong + "'";
             Excecute(sql);
         }
     }

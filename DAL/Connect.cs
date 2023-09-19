@@ -22,7 +22,8 @@ namespace DAL
         }
         public void Excecute(string sql)
         {
-            conn.Open(); SqlCommand cmd = new SqlCommand(sql, conn);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(sql, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
         }

@@ -12,14 +12,12 @@ namespace DTO
         public string hovaten;
         public string ngaysinh;
         public string sdt;
-        public int tuoi;
         public KhachHang_DTO() { }
-        public KhachHang_DTO(string ID, string hovaten, string ngaysinh, string sdt, int tuoi) { 
+        public KhachHang_DTO(string ID, string hovaten, string ngaysinh, string sdt) { 
             this.ID = ID; 
             this.hovaten = hovaten;
             this.sdt = sdt;
             this.ngaysinh = ngaysinh;
-            this.tuoi = tuoi;
         }
 
     }

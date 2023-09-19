@@ -7,22 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GUI
+namespace BUS
 {
-    public class GiaPhong_DAL
+    public class GiaPhong_BUS
     {
         GiaPhong_DAL giaphong = new GiaPhong_DAL();
         public DataTable Load_GiaPhong()
         {
-            return giaphong.Load_GiaPhong();
+            return giaphong.Load_GiaPhong_DAL();
         }
-        public void Insert_Giaphong(GiaPhong_DAL ob)
+        public void Insert_Giaphong(GiaPhong_DTO ob) 
         {
-            giaphong.Insert_Giaphong(ob);
+            giaphong.Insert_GiaPhong(ob);
         }
-        public void Update_Giaphong(GiaPhong_DAL ob)
+        public void Update_Giaphong(GiaPhong_DTO ob)
         {
-            giaphong.Update_Giaphong(ob);
+            giaphong.Update_GiaPhong(ob);
         }
         public void Delete_GiaPhong(string loaiphong)
         {

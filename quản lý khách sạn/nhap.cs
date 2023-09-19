@@ -34,5 +34,46 @@ namespace quản_lý_khách_sạn
         {
             
         }
+
+        private void inExcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nhậpThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NhapKhach form = new NhapKhach();
+            form.Show();
+        }
+
+        private void nhậpThôngTinToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            PhongDangThue form = new PhongDangThue();
+            form.Show();
+        }
+
+        private void nhậpThôngTinToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Phong form = new Phong();
+            form.Show();
+        }
+
+        private void nhậpThôngTinToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            NhanVien form = new NhanVien();
+            form.Show();
+        }
+
+        private void nhậpThôngTinToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            ChucVu form = new ChucVu();
+            form.Show();
+        }
+
+        private void nhậpThôngTinToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            GiaPhong form = new GiaPhong();
+            form.Show();
+        }
     }
 }
