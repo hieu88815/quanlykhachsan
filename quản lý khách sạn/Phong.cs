@@ -43,7 +43,7 @@ namespace quản_lý_khách_sạn
         private void update_Click(object sender, EventArgs e)
         {
             Phong_DTO phongDTO = new Phong_DTO(maphong.Text, tenphong.Text, loaiphong.Text);
-            phong.Insert_Phong(phongDTO);
+            phong.Update_Phong(phongDTO);
             Phong_Load(sender, e);
             maphong.Clear();
             tenphong.Clear();

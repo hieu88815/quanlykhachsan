@@ -1,0 +1,6 @@
+C:\Users\hieu8\source\repos\quản lý khách sạn\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hieu8\source\repos\quản lý khách sạn\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hieu8\source\repos\quản lý khách sạn\DTO\bin\Debug\DTO.dll
+C:\Users\hieu8\source\repos\quản lý khách sạn\DTO\bin\Debug\DTO.pdb
+C:\Users\hieu8\source\repos\quản lý khách sạn\DTO\obj\Debug\DTO.dll
+C:\Users\hieu8\source\repos\quản lý khách sạn\DTO\obj\Debug\DTO.pdb

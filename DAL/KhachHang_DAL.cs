@@ -17,7 +17,7 @@ namespace DAL
         }
         public void Update_khachHang(KhachHang_DTO ob)
         {
-            string sql = "update khachhang set hovaten = N'" + ob.hovaten + ", ngaysinh ='" + ob.ngaysinh + "', sdt = '" + ob.sdt + "' where ID = '" + ob.ID + "'";
+            string sql = "update khachhang set hovaten = N'" + ob.hovaten + "', ngaysinh ='" + ob.ngaysinh + "', sdt = '" + ob.sdt + "' where ID = '" + ob.ID + "'";
             Excecute(sql);
         }
         public void Insert_KhachHang(KhachHang_DTO ob)

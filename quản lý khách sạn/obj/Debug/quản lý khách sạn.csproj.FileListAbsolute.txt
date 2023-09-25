@@ -1,0 +1,16 @@
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản lý khách sạn.csproj.AssemblyReference.cache
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.Form1.resources
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.Properties.Resources.resources
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản lý khách sạn.csproj.GenerateResource.cache
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản lý khách sạn.csproj.CoreCompileInputs.cache
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\bin\Debug\quản lý khách sạn.exe.config
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\bin\Debug\quản lý khách sạn.exe
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\bin\Debug\quản lý khách sạn.pdb
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản lý khách sạn.exe
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản lý khách sạn.pdb
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.chucvu.resources
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.giaphong.resources
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.khachhang.resources
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.nhanvien.resources
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.phong.resources
+C:\Users\hieu8\source\repos\quản lý khách sạn\quản lý khách sạn\obj\Debug\quản_lý_khách_sạn.phongdangthue.resources

@@ -22,7 +22,8 @@ namespace DAL
         }
         public void Update_Phong(Phong_DTO ob)
         {
-            string sql = "update phong set tenphong = '" + ob.tenphong + "', loaiphong = N'" + ob.loaiphong + "' where maphong = '" + ob.maphong + "'"; 
+            string sql = "update phong set tenphong = '" + ob.tenphong + "', loaiphong = '" + ob.loaiphong + "' where maphong = '" + ob.maphong + "'.";
+            
             Excecute(sql);
         }
         public void detele_Phong(string maphong)
